@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+body{
+    background-color: #628bce;
+}
+
+h1{
+    margin: 30px;
+  font-family: 'Silkscreen', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #c97d26;
+}
+p{
+  font-size: 2rem;
+  color: #c97d26;
+  font-family: 'Indie Flower', cursive;
+}
+img{
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 5rem;
+  }
+}
